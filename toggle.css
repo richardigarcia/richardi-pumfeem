@@ -1,0 +1,323 @@
+
+html{
+   box-sizing:border-box;
+ padding: 0;
+  margin: 0;
+ }
+ 
+  body{
+ background-color:#f8f8f8;
+ 
+  }
+ 
+  #container{
+     background-color:#f8f8f8;
+     position:relative;
+     width: 80px;
+     height: 40px;
+     box-shadow:inset 4px 4px 6px #cecece,
+                inset -4px -4px 6px #fff;
+     margin: 0px auto;
+     margin-top: 5px;
+     border-radius: 25px;
+     flex-wrap: wrap;
+ 
+     cursor:pointer;
+  }
+ 
+  .toggle {
+    position: absolute;
+ top:0;
+ left: 0;
+ width: 40px;
+ height: 40px;
+ transform: scale(.7);
+ background-color: linear-gradient(145deg, #D8D8D8,#FFFFFF);
+ border-radius: 25px;
+ box-shadow: 3px 3px 8px #c4c4c4,
+           -3px -3px 8px #fff;
+  }
+ 
+ 
+ 
+  #container.active .toggle {
+     left: 40px;
+  }
+ 
+  body.active{
+     background-color: rgb(48, 47, 47);
+  }
+ 
+  body.active h1{
+   color: #fff;
+  }
+ 
+  body.active p{
+   color:#cecece;
+  }
+ 
+  body.active a{
+   color:#FFFFFF;
+  }
+ 
+  body.active h4{
+   color:#ffffff
+  }
+ 
+  body.active .tabla {
+   color:#ffffff;
+  }
+ 
+  body.active .body{
+   color:rgb(116, 227, 85);
+  }
+ 
+  body.active .frontend{
+   color: #FFFFFF;
+  }
+  body.active .hermoso{color:#fefefe;}
+  body.active .cielo{color: #fff;}
+
+  body.active .wilito{color:#fff;}
+
+ body.active .cachete{color: #fff;}
+  h1{
+ 
+ font-size: 100px;
+ text-align: center;
+ 
+  }
+ 
+  p{
+ font-size: 30px;
+ 
+  }
+ 
+  p {
+ color:#000000;
+font-size: 20px; 
+ 
+  }
+  
+ 
+  h1{
+ color:rgb(0, 0, 0);
+ font-size: 45px;
+  }
+ 
+  ul li{
+ display: inline-block;
+ padding: 15px 20px;
+  }
+ 
+  a{
+ color:rgb(39, 34, 34);
+ text-decoration:none;
+  }
+ 
+  html{
+ height: 3500px;
+ 
+  }
+ 
+  h1{
+ font-size: 100px;
+ 
+  }
+  
+ 
+  .imv{
+ width: 50%;
+ border-radius: 15px;
+ height:40%;
+  }
+ 
+  img:hover{
+ transform:  scale(1.04);
+  }
+ 
+  .imc{
+   width: 500px;
+   height: 250px;
+  }
+  
+  .imj{
+   width: 500px;
+   height: 250px;
+  }
+ 
+ .card{
+   border: 150px  #141313;
+   border-radius: 14% ;
+   font-family: sans-serif;
+   line-height: 1.0;
+ }
+ .cachete{
+  font-size: 45px;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ float: left;
+ }
+ 
+ 
+ 
+ .card{
+   text-align: center;
+ }
+
+ 
+
+ 
+ .card:hover{
+   box-shadow: 5px 5px 20px rgba(100, 205, 100, 0.900);
+   transform: translateY(-3%);
+ }
+ 
+ .card:hover button{
+   background: #15d522;
+   color:#fff;
+ 
+ }
+ 
+ header{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ 
+ .feo {
+   display:flex;
+   align-items: center;
+ justify-content:space-between;
+ border: 100px  #141313;
+ font-family: sans-serif;
+ line-height: 1.1;
+ }
+ 
+ .tabla{
+   border: 2px solid grey;
+   border-radius: 15%;
+   margin: 10px;
+   font-size: 16px;
+   text-align: center;
+   padding: 0px 30px;
+   height: 100%;
+ }
+ 
+ .tabla:hover{
+   transition: 8,7seg;
+ box-shadow:5px 5px 20px rgba(100, 205, 100, 0.900);
+ transform: translateY(-15px);
+ }
+ 
+ .body{
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+
+ }
+ 
+ .frontend{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   font-size: 10px;
+ }
+ 
+ .frontend{
+ 
+   border-radius: 25%;
+   padding: 50px;
+   margin: 50px;
+ }
+
+ .svg{
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+  .contenta{
+    font-size: 45px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   float: left;
+   }
+
+   .hermoso{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    
+   }
+.oliver{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.perrito{
+display: grid;
+place-items: center;
+
+}
+
+
+.cielo{
+  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+.imz{
+  width: 350px;
+  height: 250px;
+border-radius: 5%;
+}
+
+.imx{
+  width: 350px;
+  height: 250px;
+  border-radius: 5%;
+}
+
+.card1{
+width: 450px;
+top: 90px;
+}
+.wilito{font-size:22px;}
+
+
+
+.cards {
+  display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px 10px;
+}
+
+.card {
+  width: fit-content;
+  padding: 0px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    flex-direction: column; 
+  }
+
+  .feo {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}
