@@ -1,182 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--TITULO WEB-->
     <title>PUMFEEM</title>
-    <link rel="stylesheet" href="toggle.css">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta charset="utf-8">
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+
+    <!--SEO Google-->
+    <meta name="description" content="Con un equipo experimentado y orientado al cliente, nos dedicamos a garantizar una experiencia web exitosa, desde el diseño hasta el lanzamiento y más allá.">
+    <meta name="keywrods" content="PUMFEEM, pumfee, web pumfeem, WEB PUMFEEM, Web Pumfeem">
+
+    <!-- 
+    - Icono
+    -->
+    <link rel="shortcut icon" href="./icono_pumfeem.ico" type="image/icon+xml">
 </head>
 
 <body>
-    <header>
-        <nav>
 
-            <ul>
-                <li><a href="#acerca de nosotros" class="selected">Acerca de nosotros</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#servicio">Servicio</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="./assets/images/logo.webp">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Inicio</a></li>
+            <li id="link1" class="link"><a href="#sobre_nosotros">Sobre nosotros</a></li>
+            <li id="link2" class="link"><a href="#experto">Expertos</a></li>
+            <li id="link3" class="link"><a href="#servicios">Servicios</a></li>
+        </ul>
+        <a class="btn" href="#">Contacto</a>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4></h4>
+            <H1>Bienvenidos a <span>PUMFEEM</span></H1>
+            <p>
+                Somos expertos en la creación y gestión de páginas web, comprometidos con la excelencia y la satisfacción del cliente.
+            </p>
+        </div>
+        <div class="image">
+            <img src="./assets/images/logo.webp">
+        </div>
     </header>
-
-    <div id="container">
-        <div class="toggle"></div>
-
-    </div>
-    <script src="toggle.js"></script>
-
-    <h1>PUMFEEM</h1>
-    <div class="hermoso">
-
-        <h2>Acerca de nosotros</h2>
-    </div>
-    <center>
-
-        <blockquote class="wilito">
-            Nosotros somos una empresa especializada en la creacion de paginas web y los encargados en el manejo de su
-            buen funcionamiento, nombre de nuestra empresa significa &uml;para un mejor futuro en el ma&ntilde;ana&uml;el objetivo
-            de esta empresa es proporcionarles a los emprendedores una pagina web de calidad segun el modelo que
-            ellos se plantean a un precio acorde a lo pedido.
-    </center>
-    </blockquote>
-
-
-    <br>
-    <section>
-        <p id="acerca de nosotros" acerca de nosotros></p>
-        <article>
-            <div class="perrito"></div>
-            </div>
-            <div class="oliver">
-                <img src="richardi.jpg" width:50% class="imv" alt="" />
-            </div>
-        </article>
+    
+    <section class="logo_texto">
+        <img src="./assets/images/pumfeeM.jpg" alt="Logo_Texto_Pumfeem">
     </section>
 
-
-    <br>
-    <br>
-    <div class="cielo">
-        <h2>Experiencia</h>
-    </div>
-    <br>
-    <div class="cards">
-        <div class="card">
-            <div class="contento">
-                <section>
-                    <p id="experiencia" experiencia></p>
-                    <article>
-                        <img src="romario.jpg" width:100% class="imz" alt="" />
-                        <p>Nuestra empresa tambien cuenta con experiencia a la hora de realizar los servicio de hosting para
-                            que tu web sea subida a internet sin ningun problema y tu web quede entre los primeros lugares
-                            dentro la barra de busqueda de Google.</p>
-                    </article>
-                </section>
-            </div>
-            <a href="#" Leer mas></a>
+    <div class="contain" id="sobre_nosotros">
+        <div class="text">
+          <h1>Sobre Nosotros</h1>
+          <p>
+            Somos expertos en la creación y gestión de páginas web, comprometidos con la excelencia y la satisfacción del cliente. Nuestra misión es proporcionar soluciones web de alta calidad y a medida para emprendedores, a precios accesibles. Con un equipo experimentado y orientado al cliente, nos dedicamos a garantizar una experiencia web exitosa, desde el diseño hasta el lanzamiento y más allá. Contamos con la pasión y la capacidad para llevar su visión en línea y hacerla realidad. Confíe en nosotros para construir un futuro digital brillante y exitoso.</p>
         </div>
-        <div class="card" >
-            <div class="contenta">
-                <section>
-                    <p id="experiencia" experiencia></p>
-                    <article>
-    
-    
-                        <img src="leo.jpg" width:100% class="imx" alt="" />
-    
-                        <p>Nuestra empresa cuenta con integrantes que poseen un extenso conocimiento en el sector de
-                            desarrollo web y mantenimiento del mismo, por ende podemos proporcionar un servicio acorde a lo
-                            pedido por nuestro cliente.</p>
+        <img src="./assets/images/experiencia-img-1.webp" alt="Imagen Ejemplo">
+    </div>
+
+    <section class="container" id="experto">
+        <h2 class="header">Expertos</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-money-dollar-box-line"></i></span>
+                <h4>Precios Asequibles</h4>
+                <p>
+                    Ofrecemos productos y servicios de calidad a precios accesibles, asegurando que nuestros clientes obtengan el mejor valor por su dinero.
+                </p>
             </div>
-            <a href="#" Leer mas></a>
+            <div class="card">
+                <span><i class="ri-bug-line"></i></span>
+                <h4>Responsabilidad: </h4>
+                <p>
+                    Nos comprometemos a actuar con integridad y ética en todas nuestras operaciones, asumiendo la responsabilidad de nuestros actos y decisiones para mantener la confianza de nuestros clientes y socios.
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="ri-history-line"></i></span>
+                <h4>Puntualidad en las Entregas</h4>
+                <p>
+                    Priorizamos la puntualidad en todas nuestras entregas, gestionando eficientemente los tiempos de producción y distribución para cumplir con las expectativas de nuestros clientes y garantizar su satisfacción.
+                </p>
+            </div>
+            <div class="card">
+                <span><i class="ri-shake-hands-line"></i></span>
+                <h4>Seguridad y Compromiso</h4>
+                <p>
+                    La seguridad de nuestros clientes y sus datos es nuestra máxima prioridad. Nos comprometemos a implementar medidas de seguridad robustas y a cumplir con los más altos estándares para proteger la privacidad y confidencialidad de la información.
+                </p>
+            </div>
         </div>
-    </div>
-    
-    </div>
-    
-    </div>
-   
-    <div class="cachete">
-        <h6>Servicios</h6>
-        <p id="servicio" servicio></p>
-        <div class="feo">
-            <div class="tabla">
-                <h2>Pagina estatica</h2>
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-                    class="bi bi-geo-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
-                </svg>
-                <h3>$100-$300 USD</h3>
-                <p>una p&aacute;gina web est&aacute;tica es aquella que tiene todo su contenido e informaci&oacute;n fija, la cual se muestra igualmente a cada usuario que la visita.</p>
+    </section>
 
+    <section class="container" id="servicios">
+        <h2 class="header">Servicios que Ofrecemos</h2>
+        <p class="sub-header">
+            Tu presencia en la web será una explosión de creatividad y profesionalismo.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Página Estética</h4>
+                    <h3>$100-$300 USD</h3>
+                    <p>
+                        Una página web estática es aquella que tiene todo su contenido e información fija, la cual se muestra igualmente a cada usuario que la visita.
+                    </p>
+                </div>
             </div>
-
-            <i class="bi bi-symmetry-vertical"></i>
-            <div class="tabla">
-                <h2>Responsive Page</h2>
-                <i class="bi bi-vector-pen"></i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-                    class="bi bi-vector-pen" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z" />
-                    <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086z" />
-                </svg>
-                <h3>$400-$600 USD</h3>
-                <p>Una p&aacute;gina web responsiva es aquella que se adapta a cualquier dispositivo, pantalla y resoluci&oacute;n para brindar una experiencia de navegaci&oacute;n agradable.</p>
-
+            <div class="card">
+                <div class="content">
+                    <h4>Responsive Page</h4>
+                    <h3>$400-$600 USD</h3>
+                    <p>
+                        Una página web responsiva es aquella que se adapta a cualquier dispositivo, pantalla y resolución para brindar una experiencia de navegación agradable.
+                    </p>
+                </div>
             </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Landing Page</h4>
+                    <h3>$500-$1000 USD</h3>
+                    <p>
+                        Una landing page (página de aterrizaje, página de destino) es una página web diseñada con el objetivo de hacer que la persona que la visite termine realizando una acción específica en esta.
+                    </p>
 
-
-
-            <div class="tabla">
-                <h2>Landing Page</h2>
-                <i href="imv">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-                        class="bi bi-suit-club-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M11.5 12.5a3.5 3.5 0 0 1-2.684-1.254 20 20 0 0 0 1.582 2.907c.231.35-.02.847-.438.847H6.04c-.419 0-.67-.497-.438-.847a20 20 0 0 0 1.582-2.907 3.5 3.5 0 1 1-2.538-5.743 3.5 3.5 0 1 1 6.708 0A3.5 3.5 0 1 1 11.5 12.5" />
-                    </svg>
-                </i>
-                <h3>$500-$1000 USD</h3>
-                <div class="Richardi">
-                    <p>Una landing page (p&aacute;gina de aterrizaje, p&aacute;gina de destino) es una p&aacute;gina web dise&ntilde;ada con el objetivo de hacer que la persona que la visite termine realizando una acci&oacute;n espec&iacute;fica en esta.</p>
                 </div>
             </div>
         </div>
+    </section>
 
-
-        <div class="body">
-            <h3>&iquest;Quieres una pagina personalizada para tu negocio a un precio accesible?</h2>
-                <br>
-                <h4>Contactanos</h4>
-                <p id="contacto"></p>
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <img src="./assets/images/logo.webp">
+            </div>
+            <p>
+                Tu presencia en la web será una explosión de creatividad y profesionalismo.
+            </p>
+            <div class="socials">
+                <a href="https://www.instagram.com/pumfeem/"><i class="ri-instagram-line"></i></a>  
+            </div>
         </div>
-
-
-        <div class="frontend">
-
-            <a href="https://www.instagram.com/pumfeem/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
-                    fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                    <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-                </svg></a>
-
-
-
-            <a href="mailto:richardigarcia04@gmail.com"><svg
-                    xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-envelope"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-                </svg></a>
-
-
-
-
+        <!--<div class="column">
+            <h4>Company</h4>
+            <a href="#">Business</a>
+            <a href="#">Partnership</a>
+            <a href="#">Network</a>
         </div>
+        <div class="column">
+            <h4>About Us</h4>
+            <a href="#">Blogs</a>
+            <a href="#">Channels</a>
+            <a href="#">Sponsors</a>
+        </div>-->
+        <div class="column">
+            <h4>Link</h4>
+            <a href="#">Inicio</a>
+            <a href="#sobre_nosotros">Sobre nosotros</a>
+            <a href="#experto">Expertos</a>
+            <a href="#servicios">Servicios</a>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        © 2024 PUMFEEM. Todos los derechos reservados. Tecnología de TCER Company
+    </div>
+
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
